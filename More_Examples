@@ -34,9 +34,6 @@ public class Examples {
     public void verifyCheckbox2()
     {
         driver.get("https://the-internet.herokuapp.com/");
-       // wait = new WebDriverWait(driver, 30);
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(
-          //     By.cssSelector("div.example>form :nth-child(3)")));
 
         WebElement link = driver.findElement(By.linkText("Checkboxes"));
         link.click();
